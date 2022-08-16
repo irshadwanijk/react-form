@@ -1,0 +1,72 @@
+.App {
+  background-color: rgb(245, 245, 245);
+  margin: 0 auto;
+  max-width: 1000px;
+  border-radius: 4px;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.form-heading {
+  color: rgb(254, 103, 103);
+  text-align: center;
+  padding-top: 1rem;
+  width: 100%;
+}
+
+.react-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 90%;
+  width: 100%;
+  grid-column-gap: 3rem;
+  margin: 0 auto;
+}
+
+label {
+  display: inline;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+
+input,
+select {
+  width: 100%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 30px;
+  border: 1.3px solid rgb(55, 184, 189);
+  /* margin-bottom: 0.5rem; */
+  padding-left: 5px;
+}
+
+.captcha {
+  margin-bottom: 3rem;
+  margin-top: 1.3rem;
+}
+
+.asterisk {
+  color: rgb(217, 33, 33);
+}
+
+.register-btn {
+  background-color: rgb(236, 117, 117);
+  width: 8rem;
+  height: 3rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.register {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+span {
+  font-size: 10px;
+  color: hsl(0, 100%, 74%);
+  text-align: end;
+}
